@@ -29,6 +29,11 @@ body {
     float: left;
 }
 
+li a{
+    text-decoration: none;
+    color: white;
+}
+
 li {
     text-transform: uppercase;
     float: left;
