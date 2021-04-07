@@ -39,7 +39,11 @@ li {
     float: left;
     margin-left: 20px;
     font-size: 13px;
+}
 
+li a:hover {
+    color: #F84A7C;
+    transition: 0.7s;
 }
 
 li:hover {
