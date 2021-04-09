@@ -44,6 +44,7 @@ li {
 li a:hover {
     color: #F84A7C;
     transition: 0.7s;
+    font-weight: 700;
 }
 
 li:hover {
@@ -101,6 +102,11 @@ li:hover {
     
 }
 
+.saiba_mais button a {
+    text-decoration: none;
+    color: white;
+}
+
 /*Missão Visão Valores*/
 .box {
     overflow: auto;
@@ -142,5 +148,56 @@ li:hover {
 
 .footer a:hover{
     color: #F84A7C;
+    transition: 0.7s;
+}
+
+/*Login*/
+.pag-login {
+
+}
+
+.box-login {
+    width: 40%;
+    background-color: #4b4b4b;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    box-shadow: 5px 7px 13px 1px #F84A7C;
+}
+
+.box-login h2 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.box-login input {
+    margin: 5px;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:  #202024;
+    color: white;
+    border: none;
+}
+
+.box-login button {
+    margin: 5px;
+    width: 172px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F84A7C;
+    color: white;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #F84A7C;
+    box-shadow: 0 0 10px #F84A7C;
     transition: 0.7s;
 }
